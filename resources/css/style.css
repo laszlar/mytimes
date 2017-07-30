@@ -1,0 +1,140 @@
+﻿div {
+	display: block;
+}
+
+a {
+	color: black;
+}
+
+p {
+	display: block;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	top: 0;
+	z-index: 5;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+	background-color: white;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	padding-left: 30px;
+}
+
+.logo span{
+	color: MediumAquamarine; 
+}
+
+.logo img {
+	margin-right: 12px;
+}
+
+nav span {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+header nav {
+	padding-right: 40px;
+}
+
+.mainContent {
+	display: flex;
+	/*border: solid;
+	border-color: black;*/
+	width: 1232px;
+	padding-top: 116px;
+	margin: 0 auto 78px auto;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+	width: 630px;
+	/*border: solid;
+	border-color: black;*/
+	margin-right: 32px;
+}
+
+.column.medium {
+	width: 300px;
+	display: flex
+}
+
+.column.small {
+	width: 240px;
+	display: flex;
+}
+
+.stories {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 17px;
+}
+
+.stories .story-text {
+	height: 250px;
+}
+
+.story {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.main-image-content {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+	width: 629px;
+	height: 300px;
+}
+
+.main-image-content span {
+	text-align: center;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 40px;
+	color: white;
+}
+
+.cat-ceo-image {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+	height: 300px;
+	margin-top: 15px;
+	text-align: center;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+
+.fall-cancelled-image {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+	height: 300px;
+	margin-top: 15px;
+	text-align: center;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+
+.culture-image {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+	height: 300px;
+	margin-top: 15px;
+	text-align: center;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+
