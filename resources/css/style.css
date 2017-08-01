@@ -8,6 +8,9 @@ a {
 
 p {
 	display: block;
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
 }
 
 header {
@@ -110,23 +113,31 @@ header nav {
 	width: 300px;
 }
 
+.story h2 {
+	font-family: Georgia;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 30px;
+}
+
 .main-image-content {
 	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
 	width: 629px;
 	height: 300px;
 	text-align: left;
-}
-
-.main-image-content span {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+}
+
+.main-image-content span {
+	display: inline-flex;
 	margin-left: 20px;
 	font-family: Georgia;
 	font-weight: bold;
 	font-size: 40px;
 	color: white;
+	text-align: left;
 }
 
 .cat-ceo-image {
@@ -138,6 +149,9 @@ header nav {
 	font-weight: bold;
 	font-size: 30px;
 	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .fall-cancelled-image {
@@ -149,6 +163,9 @@ header nav {
 	font-weight: bold;
 	font-size: 30px;
 	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .culture-image {
@@ -160,6 +177,9 @@ header nav {
 	font-weight: bold;
 	font-size: 30px;
 	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 footer {
